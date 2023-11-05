@@ -33,7 +33,7 @@ export default function Item() {
             <p>{item.desc}</p>
             <MuiButton 
                 textButton={`Quantidade: ${item.qntd}`}
-                colorButton={ item.qntd > 10 ? ("success") : ("error")}
+                colorButton={ item.qntd >= 10 ? ("success") : ("error")}
             />
         </section>
     )
