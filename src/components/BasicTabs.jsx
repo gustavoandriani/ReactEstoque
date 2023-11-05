@@ -37,6 +37,11 @@ function a11yProps(index) {
   };
 }
 
+BasicTabs.propTypes = {
+  tabOneContent: PropTypes.func,
+  tabTwoContent: PropTypes.func
+}
+
 export default function BasicTabs({ tabOneContent, tabTwoContent }) {
   const [value, setValue] = React.useState(0);
 
