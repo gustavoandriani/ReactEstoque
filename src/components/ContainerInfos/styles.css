@@ -1,0 +1,7 @@
+div.ContainerInfos {
+    box-sizing: border-box;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

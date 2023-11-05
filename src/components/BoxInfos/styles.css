@@ -1,0 +1,20 @@
+.BoxInfos {
+    background-color: rgb(37, 37, 37);
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.BoxInfos p {
+    margin: 1rem 0 0 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.BoxInfos h1 {
+    margin-top: 2rem;
+    align-self: center;
+    font-size: 32px;
+}
