@@ -1,3 +1,10 @@
+@media (max-width: 420px) {
+    .ContainerInfos {
+      flex-direction: column;
+      height: fit-content;
+    }
+}
+
 div.ContainerInfos {
     box-sizing: border-box;
     padding: 2rem;

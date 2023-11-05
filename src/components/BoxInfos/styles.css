@@ -1,10 +1,27 @@
+@media (max-width: 420px) {
+    .BoxInfos {
+        margin: 1rem 0!important;
+        max-width: 250px;
+        height: fit-content!important;
+        align-self: center;
+    }
+    
+    .BoxInfos p {
+        margin: .5rem 0 0 0!important;
+        font-size: 16px!important;
+        text-align: center;
+    }
+}
+
 .BoxInfos {
     background-color: rgb(37, 37, 37);
-    width: 20%;
+    width: 25%;
+    min-width: 200px;
     height: 200px;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    margin: 0 1rem;
 }
 
 .BoxInfos p {

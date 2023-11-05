@@ -1,3 +1,9 @@
+@media (max-width: 420px) {
+    .ContainerTables {
+        flex-direction: column;
+    }
+}
+
 .ContainerTables {
     display: flex;
     justify-content: space-around;

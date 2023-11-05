@@ -7,6 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import PropTypes from 'prop-types';
+import "./styles.css"
 
 BasicTable.propTypes = {
   tableHead: PropTypes.number,
@@ -15,8 +16,8 @@ BasicTable.propTypes = {
 
 export default function BasicTable({ tableHead, tableContent}) {
   return (
-    <TableContainer component={Paper} sx={{ margin: "1rem" }}>
-      <Table sx={{ minWidth: 550 }} aria-label="simple table">
+    <TableContainer className='TableContainer' component={Paper} sx={{ margin: "1rem" }}>
+      <Table sx={{ minWidth: 250 }} aria-label="simple table">
         <TableHead>
           {
                 tableHead === 3 ? (
